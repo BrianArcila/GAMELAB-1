@@ -1,0 +1,277 @@
+package org.apache.jsp.VIEWGAMES.GTA;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("<head>\n");
+      out.write("    <link rel=\"shortcut icon\" href=\"./img/Logo-2.png\" type=\"image/x-icon\">\n");
+      out.write("    <link rel=\"stylesheet\" href=\"./css/bootstrap.min.css\">\n");
+      out.write("    <link rel=\"stylesheet\" href=\"css/style.css\">\n");
+      out.write("    <link href=\"https://fonts.googleapis.com/css?family=Roboto:300\" rel=\"stylesheet\">\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.4.1/css/all.css\">\n");
+      out.write("</head>\n");
+      out.write("    <!-- HEADER -->\n");
+      out.write("    <header class=\"header\">\n");
+      out.write("        <div class=\"header__section1\">\n");
+      out.write("            <button class=\"header__section1__button\" id=\"btnmenu\"><i class=\"fas fa-bars\"></i></button>\n");
+      out.write("            <div class=\"header__section1__bg__responsive\" id=\"bgmenu\"></div>\n");
+      out.write("            <img src=\"./img/Logo-3.png\" class=\"header__section1__img\" alt=\"logo\">\n");
+      out.write("            <ul class=\"header__section1__list\">\n");
+      out.write("                <li>\n");
+      out.write("                    <a class=\"dropdown-toggle\" id=\"dropdownMenuButton\" data-toggle=\"dropdown\" aria-haspopup=\"true\"\n");
+      out.write("                        aria-expanded=\"false\">HELP</a>\n");
+      out.write("                    <div class=\"dropdown-menu\" aria-labelledby=\"dropdownMenuButton\">\n");
+      out.write("                        <a class=\"dropdown-item\" href=\"#\">Contact</a>\n");
+      out.write("                        <a class=\"dropdown-item\" href=\"#\">Example to buy</a>\n");
+      out.write("                        <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n");
+      out.write("                    </div>\n");
+      out.write("                </li>\n");
+      out.write("                <li>\n");
+      out.write("                    <a href=\"\">SUPPORT</a>\n");
+      out.write("                </li>\n");
+      out.write("                <li>\n");
+      out.write("                    <a href=\"\">FREE GAMES</a>\n");
+      out.write("                </li>\n");
+      out.write("                <li>\n");
+      out.write("                    <a href=\"\">SELL YOUR</a>\n");
+      out.write("                </li>\n");
+      out.write("            </ul>\n");
+      out.write("            <ul class=\"header__section1__list__responsive\" id=\"menu\">\n");
+      out.write("                <li class=\"dropdown-toggle\" data-toggle=\"collapse\" href=\"#collapseExample\" role=\"button\" aria-expanded=\"false\"\n");
+      out.write("                aria-controls=\"collapseExample\">\n");
+      out.write("                    HELP\n");
+      out.write("                </li>\n");
+      out.write("                <li class=\"collapse\" id=\"collapseExample\">\n");
+      out.write("                    <a class=\"dropdown-item\" href=\"#\">Contact</a>\n");
+      out.write("                    <a class=\"dropdown-item\" href=\"#\">Example to buy</a>\n");
+      out.write("                    <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n");
+      out.write("                </li>\n");
+      out.write("                <a href=\"\">\n");
+      out.write("                    <li>\n");
+      out.write("                        SUPPORT\n");
+      out.write("                    </li>\n");
+      out.write("                </a>\n");
+      out.write("                <a href=\"\">\n");
+      out.write("                    <li>\n");
+      out.write("                        FREE GAMES\n");
+      out.write("                    </li>\n");
+      out.write("                </a>\n");
+      out.write("                <a href=\"\">\n");
+      out.write("                    <li>\n");
+      out.write("                        SELL YOUR\n");
+      out.write("                    </li>\n");
+      out.write("                </a>\n");
+      out.write("            </ul>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"header__section2\">\n");
+      out.write("            <ul class=\"header__section2__list\">\n");
+      out.write("                <li>\n");
+      out.write("               <a href=\"../LOGIN/login.html\"><button type=\"button\" class=\"btn btn-danger\">Login</button></a>     \n");
+      out.write("                </li>\n");
+      out.write("            </ul>\n");
+      out.write("        </div>\n");
+      out.write("    </header>\n");
+      out.write("<head>\n");
+      out.write("  <meta charset=\"utf-8\">\n");
+      out.write("  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n");
+      out.write("  <!-- PAGE settings -->\n");
+      out.write("  <link rel=\"icon\" href=\"https://templates.pingendo.com/assets/Pingendo_favicon.ico\">\n");
+      out.write("  <title>App Aquamarine - Pingendo template</title>\n");
+      out.write("  <meta name=\"description\" content=\"Free Bootstrap 4 Pingendo Aquamarine template made for app and softwares.\">\n");
+      out.write("  <meta name=\"keywords\" content=\"Pingendo app aquamarine free template bootstrap 4\">\n");
+      out.write("  <!-- CSS dependencies -->\n");
+      out.write("  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\" type=\"text/css\">\n");
+      out.write("  <link rel=\"stylesheet\" href=\"aquamarine.css\">\n");
+      out.write("  <!-- Script: Make my navbar transparent when the document is scrolled to top -->\n");
+      out.write("  <script src=\"js/navbar-ontop.js\"></script>\n");
+      out.write("  <!-- Script: Animated entrance -->\n");
+      out.write("  <script src=\"js/animate-in.js\"></script>\n");
+      out.write("</head>\n");
+      out.write("\n");
+      out.write("<body style=\"\tbackground-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8));\tbackground-position: top left;\tbackground-size: 100%;\tbackground-repeat: repeat;\">\n");
+      out.write("  <!-- Navbar -->\n");
+      out.write("  <!-- Cover -->\n");
+      out.write("  <div class=\"pt-5 bg-primary text-white\" style=\"box-shadow: 0px 0px 4px  black;background-image: url(img/3.jpg);background-position: top left;background-size: 1210px 700px;background-repeat: no-repeat;margin-left: 70px;\">\n");
+      out.write("    <div class=\"container mt-5 pt-5\">\n");
+      out.write("      <div class=\"row\">\n");
+      out.write("        <div class=\"col-md-12 my-5 text-lg-left text-center align-self-center\" style=\"\">\n");
+      out.write("          <h1 class=\"display-1\">GTA V</h1>\n");
+      out.write("          <p class=\"lead\">Los Santos is a city of bright lights, long nights and dirty secrets, especially in GTA Online: After Hours. The party starts now</p>\n");
+      out.write("          <div class=\"row mt-5\">\n");
+      out.write("            <div class=\"col-6 col-lg-5\" style=\"\"><a class=\"btn text-white w-100 btn-lg\" href=\"#\" style=\"background:#dd4b39\" target=\"_blank\">BUY</a></div>\n");
+      out.write("            <div class=\"col-6 col-lg-5\"><a class=\"btn text-white btn-lg w-100 mx-5 mr-5\" href=\"#\" style=\"background: rgb(221, 75, 57);\" target=\"_blank\" contenteditable=\"true\">ADD TO CAR</a></div>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <!-- Article style section -->\n");
+      out.write("  <div class=\"py-5\" style=\"\tbackground-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));\tbackground-position: top left;\tbackground-size: 100%;\tbackground-repeat: repeat;\">\n");
+      out.write("    <div class=\"container\">\n");
+      out.write("      <div class=\"row py-5\">\n");
+      out.write("        <div class=\"col-md-5 order-2 order-md-1\"><img class=\"img-fluid d-block\" src=\"img/1.png\" style=\"\"></div>\n");
+      out.write("        <div class=\"col-md-7 align-self-center order-1 order-md-2 my-3 text-md-left text-center\">\n");
+      out.write("          <h2 class=\"text-white\">Create your own story</h2>\n");
+      out.write("          <p class=\"my-4 text-white\">When a young street scammer, a retired bank robber and a scary psychopath are involved with the worst and most deranged criminal world, the US government. and of the entertainment industry, they will have to carry out a series of dangerous blows to survive in a relentless city in which they can not trust anyone. And much less in each other.</p>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"row pt-5\">\n");
+      out.write("        <div class=\"align-self-center col-lg-7 text-md-left text-center\">\n");
+      out.write("          <h2 class=\"text-white\">Enjoy ever</h2>\n");
+      out.write("          <p class=\"my-4 text-white\">Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County with a resolution of 4K and enjoy the game at 60 frames per second.</p>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"align-self-center mt-5 col-lg-5\"><img class=\"img-fluid d-block\" src=\"img/2.png\"></div>\n");
+      out.write("      </div>\n");
+      out.write("      <hr class=\"mt-0\">\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <!-- Features -->\n");
+      out.write("  <div class=\"py-5\" id=\"features\" style=\"\tbackground-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8));\tbackground-position: top left;\tbackground-size: 100%;\tbackground-repeat: repeat;\">\n");
+      out.write("    <div class=\"container\">\n");
+      out.write("      <div class=\"row\">\n");
+      out.write("        <div class=\"col-md-12 text-center\">\n");
+      out.write("          <h2 class=\"pb-4 text-white\">Check it out</h2>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("      <div class=\"row\">\n");
+      out.write("        <div class=\"col-md-12\">\n");
+      out.write("          <div class=\"embed-responsive embed-responsive-16by9\">\n");
+      out.write("            <iframe src=\"https://www.youtube.com/embed/QkkoHAzjnUs\" allowfullscreen=\"\" class=\"embed-responsive-item\"></iframe>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("  <!-- Features -->\n");
+      out.write("  <!-- Carousel reviews -->\n");
+      out.write("  <div class=\"py-5 section text-center bg-light\" id=\"reviews\">\n");
+      out.write("    <div class=\"container\">\n");
+      out.write("      <div class=\"row\">\n");
+      out.write("        <div class=\"col-md-12\">\n");
+      out.write("          <div class=\"row\">\n");
+      out.write("            <div class=\"col-md-12\">\n");
+      out.write("              <h1 class=\"\">Available platforms</h1>\n");
+      out.write("            </div>\n");
+      out.write("          </div>\n");
+      out.write("          <div class=\"row\">\n");
+      out.write("            <div class=\"col-md-6\"><img class=\"img-fluid d-block\" src=\"img/ps4.png\"></div>\n");
+      out.write("            <div class=\"col-md-6\"><img class=\"d-block img-fluid mt-4\" src=\"img/Logo_xbox_one.png\"></div>\n");
+      out.write("          </div>\n");
+      out.write("        </div>\n");
+      out.write("      </div>\n");
+      out.write("    </div>\n");
+      out.write("  </div>\n");
+      out.write("      <!-- PARTNERS -->\n");
+      out.write("    <section class=\"partners\">\n");
+      out.write("        <img src=\"./img/paypal.png\" alt=\"paypal\">\n");
+      out.write("        <img src=\"./img/visa.png\" alt=\"visa\">\n");
+      out.write("        <img src=\"./img/ucash.png\" alt=\"ukash\">\n");
+      out.write("        <img src=\"./img/webmoney.png\" alt=\"webmoney\">\n");
+      out.write("    </section>\n");
+      out.write("    <!-- FOOTER -->\n");
+      out.write("    <footer class=\"footer\">\n");
+      out.write("        <div class=\"footer__section1\">\n");
+      out.write("            <img src=\"./img/Logo-4.png\" class=\"footer__section1__logo\" alt=\"logo\">\n");
+      out.write("            <button class=\"footer__section1__btnsupport\">SUPPORT CENTER</button>\n");
+      out.write("            <p>Copyright &copy; 2018 GameLab</p>\n");
+      out.write("            <p>All rights reserve</p>\n");
+      out.write("        </div>\n");
+      out.write("        <div class=\"footer__section2\">\n");
+      out.write("            <div class=\"footer__section2__subsection1\">\n");
+      out.write("                <p class=\"footer__section2__subsection1__title\">Get your extra discount</p>\n");
+      out.write("                <p class=\"footer__section2__subsection1__content\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illo voluptatibus fugiat quam unde quo ullam tenetur eligendi eum voluptas illum magni blanditiis quas iusto, labore repellat autem delectus omnis?</p>\n");
+      out.write("                <a href=\"\" class=\"footer__section2__subsection1__clickhere\">CLICK HERE</a>\n");
+      out.write("            </div>\n");
+      out.write("            <div class=\"footer__section2__subsection2\">\n");
+      out.write("                <p class=\"footer__section2__subsection2__title\">Social media</p>\n");
+      out.write("                <a class=\"footer__section2__subsection2__network1\" href=\"\">\n");
+      out.write("                    <div>\n");
+      out.write("                        <i class=\"fab fa-facebook-square\"></i>\n");
+      out.write("                        <p>Like us on Facebook</p>\n");
+      out.write("                    </div>\n");
+      out.write("                </a>\n");
+      out.write("                <a class=\"footer__section2__subsection2__network2\" href=\"\">\n");
+      out.write("                    <div>\n");
+      out.write("                        <i class=\"fab fa-twitter-square\"></i>\n");
+      out.write("                        <p>Follow us on Twitter</p>\n");
+      out.write("                    </div>\n");
+      out.write("                </a>\n");
+      out.write("                <a class=\"footer__section2__subsection2__network3\" href=\"\">\n");
+      out.write("                    <div>\n");
+      out.write("                        <i class=\"fab fa-youtube-square\"></i>\n");
+      out.write("                        <p>Watch us on YouTube</p>\n");
+      out.write("                    </div>\n");
+      out.write("                </a>\n");
+      out.write("            </div>\n");
+      out.write("        </div>\n");
+      out.write("    </footer>\n");
+      out.write("    <script src=\"./js/jquery.min.js\"></script>\n");
+      out.write("    <script src=\"./js/bootstrap.min.js\"></script>\n");
+      out.write("    <script src=\"./js/main.js\"></script>\n");
+      out.write("  <!-- Call to action -->\n");
+      out.write("  <!-- Footer -->\n");
+      out.write("  <!-- JavaScript dependencies -->\n");
+      out.write("  <script src=\"https://code.jquery.com/jquery-3.3.1.min.js\"></script>\n");
+      out.write("  <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>\n");
+      out.write("  <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js\" integrity=\"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy\" crossorigin=\"anonymous\"></script>\n");
+      out.write("  <!-- Script: Smooth scrolling between anchors in the same page -->\n");
+      out.write("  <script src=\"js/smooth-scroll.js\"></script>\n");
+      out.write("</body>\n");
+      out.write("\n");
+      out.write("</html>\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}
